@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --btnbg: hsl(169, 82%, 27%);
+    --btn: hsl(148, 38%, 91%);
+    --error: hsl(0, 66%, 54%);
+    --input: hsl(186, 15%, 59%);
+    --pandh: hsl(187, 24%, 22%);
+    --backdesign: hsl(148, 38%, 91%);
+    --formbg: hsl(0, 0%, 100%);
+}
+
+#whole{
+    background-color: var(--backdesign);
+}
+#errorbox{
+	/* margin-bottom: 1rem;
+	padding: 1rem;
+	font-weight: bold;
+    /* background-color: bisque; */
+    
+    color: black;
+    /* display: none; */ 
+}
+h1{ 
+    font-weight: 700;
+    color: var(--pandh);
+}
+form{
+    background-color: var(--formbg);
+    padding: 2.5rem;
+    margin: 4rem 4rem;
+    border-radius: 1rem;
+    /* margin: 2rem 3rem; */
+}
+								
+				

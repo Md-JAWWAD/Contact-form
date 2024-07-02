@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+
+<body>
+  <script src="form.js"></script>
+  <div id="whole">
+    <div id='errorbox'>
+    </div>
+    <form action="" onsubmit="validate();">
+
+      <h1>Contact Us</h1>
+      <p>First Name</p>
+      <input type="text" name="1stname" id="name">
+
+      <p>Last Name</p>
+      <input type="text" name="2ndname" id="name">
+
+      <p>Email Address</p>
+      <input type="email" name="Email" id="email">
+
+      <p>Query Type</p>
+      <input type="radio" name="query" id="query1" value="GeneralEnquiry">
+      <label for="query1">General Enquiry</label>
+      <input type="radio" name="query" id="query2" value="SupportRequest">
+      <label for="query2">Support Request</label>
+
+      <p>Message</p>
+      <input type="text" name="Message" id="msg">
+
+      <input type="checkbox" name="check" id="check">
+      <label for="check">I consent to being contacted by the team</label>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
